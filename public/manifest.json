@@ -1,0 +1,21 @@
+{
+  "name": "Sten Sax Påse 2",
+  "short_name": "ssp2",
+  "icons": [
+    {
+      "src": "/~s63834/ssp2/img/icons/logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/~s63834/ssp2/img/icons/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/~s63834/ssp2/",
+  "scope": "/~s63834/ssp2/",
+  "background_color": "#fff",
+  "display": "standalone",
+  "theme_color": "#fff"
+}
