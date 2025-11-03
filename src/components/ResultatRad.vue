@@ -15,4 +15,11 @@ const { message } = storeToRefs(useGameStore())
   font-weight: bold;
   text-align: center;
 }
+
+@media (max-width: 699px) {
+  .resultatrad {
+    font-size: 1.8em;
+    margin: 1.5rem 0;
+  }
+}
 </style>

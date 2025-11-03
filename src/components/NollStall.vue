@@ -24,6 +24,15 @@ function nollstall() {
     2px 2px 0 gray,
     4px 4px 0 gray;
 }
+
+@media (max-width: 699px) {
+  .nollstall {
+    font-size: 1.8rem;
+    padding: 0.8rem 1.2rem;
+    width: 90%;
+    margin: 1rem auto;
+  }
+}
 button:hover {
   background-color: lightcoral;
   color: aliceblue;

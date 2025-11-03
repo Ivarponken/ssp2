@@ -19,4 +19,11 @@ const { score } = storeToRefs(useGameStore())
   text-align: center;
   font-family: 'Press Start 2P', cursive;
 }
+
+@media (max-width: 699px) {
+  .poangrad {
+    font-size: 1.8em;
+    margin: 1.5rem 0;
+  }
+}
 </style>
