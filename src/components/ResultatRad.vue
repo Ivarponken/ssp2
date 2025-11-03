@@ -1,5 +1,18 @@
-<script setup></script>
+<script setup>
+import { useGameStore } from '@/stores/gameStore'
+import { storeToRefs } from 'pinia'
 
-<template>ResultatRad</template>
+const { message } = storeToRefs(useGameStore())
+</script>
 
-<style scoped></style>
+<template>
+  <p class="resultatrad">{{ message }}</p>
+</template>
+
+<style scoped>
+.resultatrad {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+}
+</style>
