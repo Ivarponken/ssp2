@@ -16,22 +16,15 @@
 
 @media (max-width: 699px) {
   #app {
-    padding: 1rem;
-    width: 100%;
-    max-width: none;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    padding: 1.5rem;
+    width: 95%;
   }
   #app h1 {
     font-size: 2rem;
     text-align: center;
-    margin: 0.5rem 0;
   }
   .revisited {
     font-size: 1.2rem;
-    margin: 0.5rem 0;
   }
 }
 
@@ -42,11 +35,4 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  min-height: 100vh;
-  margin: 0;
-  padding: 0;
-}
-
-html {
-  height: 100%;
 }

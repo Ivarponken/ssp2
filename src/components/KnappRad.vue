@@ -65,16 +65,11 @@ button {
     gap: 0.8em;
     flex-direction: column;
     align-items: stretch;
-    padding: 0 1rem;
   }
   button {
     font-size: 1.8rem;
-    padding: 1.2rem;
-    margin: 0.5rem 0;
-    width: 100%;
-    min-height: 4rem;
-    touch-action: manipulation;
-    -webkit-tap-highlight-color: transparent;
+    padding: 0.8rem 1.2rem;
+    margin: 0.3rem;
   }
 }
 .selected {
